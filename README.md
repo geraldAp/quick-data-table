@@ -1,6 +1,24 @@
-# quick-data-table
+# Quick Data Table
 
-Publishable React table component with full TypeScript support and Tailwind styling.
+is a lightweight, fully customizable React table component designed to accelerate building data-driven UIs. It is built with Tailwind CSS by default but supports overriding styles with native CSS classes, giving you both speed and flexibility.
+
+Key Features:
+
+Render dynamic tables with ease using a simple column definition.
+
+Optional auto-increment (numbering) column.
+
+Customizable header, footer, and pagination slots.
+
+Fully responsive and scrollable for large tables.
+
+Loading state with skeleton rows or custom loading component.
+
+Supports empty state with a custom React node.
+
+Each column can have a custom cell renderer.
+
+Clean and minimal Tailwind default styling with the ability to override classes.
 
 ## Install
 
