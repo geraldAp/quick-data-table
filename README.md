@@ -1,6 +1,6 @@
 # Quick Data Table
 
-is a lightweight, fully customizable React table component designed to accelerate building data-driven UIs. It is built with Tailwind CSS by default but supports overriding styles with native CSS classes, giving you both speed and flexibility.
+is an open source lightweight, fully customizable React table component designed to accelerate building data-driven UIs. It is built with Tailwind CSS by default but supports overriding styles with native CSS classes, giving you both speed and flexibility.
 
 Key Features:
 
