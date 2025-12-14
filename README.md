@@ -132,15 +132,21 @@ import type { DataTableProps } from "quick-data-table";
 
 ## Props
 
-- `data`: array of rows
-- `columns`: array of column definitions
+- `data` (required): array of rows
+- `columns` (required): array of column definitions
 - `header`: node rendered above the table
 - `footer`: node rendered inside `<tfoot>`
 - `pagination`: node rendered below the table
-- `isLoading`: boolean
-- `loadingRows`: number of skeleton rows to display when loading (default `3`)
-- `loadingState`: custom node to render spanning all columns when loading
-- `emptyState`: node shown when `data` is empty
-- `autoIncrement`: show row index column
-- `getRowId`: custom row key
-- `className` and `*ClassName` props to style sections
+- `isLoading` (default `false`): toggles loading state
+- `loadingRows` (default `3`): number of skeleton rows when loading
+- `loadingState`: custom loading node spanning all columns
+- `emptyState` (default "No records found."): node shown when `data` is empty
+- `autoIncrement` (default `false`): show row index column as first column
+- `getRowId`: `(row, index) => string | number` for stable keys
+- `className`: wrapper `<div>` class
+- `tableClassName`: `<table>` class
+- `theadClassName`: `<thead>` class
+- `tbodyClassName`: `<tbody>` class
+- `trClassName`: row `<tr>` class
+- `thClassName`: header cell `<th>` class
+- `tdClassName`: body cell `<td>` class
