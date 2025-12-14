@@ -4,43 +4,36 @@ is a lightweight, fully customizable React table component designed to accelerat
 
 Key Features:
 
-Render dynamic tables with ease using a simple column definition.
-
-Optional auto-increment (numbering) column.
-
-Customizable header, footer, and pagination slots.
-
-Fully responsive and scrollable for large tables.
-
-Loading state with skeleton rows or custom loading component.
-
-Supports empty state with a custom React node.
-
-Each column can have a custom cell renderer.
-
-Clean and minimal Tailwind default styling with the ability to override classes.
+- Render dynamic tables with ease using a simple column definition.
+- Optional auto-increment (numbering) column.
+- Customizable header, footer, and pagination slots.
+- Fully responsive and scrollable for large tables.
+- Loading state with skeleton rows or custom loading component.
+- Supports empty state with a custom React node.
+- Each column can have a custom cell renderer.
+- Clean and minimal Tailwind default styling with the ability to override classes.
 
 ## Install
 
-```
+```bash
 npm install quick-data-table
 ```
 
 Peer dependencies required in your app:
 
-```
+```bash
 npm install react react-dom tailwindcss
 ```
 
 Add Tailwind to your global CSS:
 
-```
+```css
 @import "tailwindcss";
 ```
 
 ## Usage
 
-```
+```tsx
 import { DataTable } from "quick-data-table";
 
 type User = {
@@ -89,7 +82,7 @@ const columns = [
 
 ### Footer and Pagination
 
-```
+```tsx
 <DataTable
   columns={columns}
   data={data}
@@ -100,14 +93,14 @@ const columns = [
 
 ## Types
 
-```
+```ts
 import type { Column } from "quick-data-table";
 import type { DataTableProps } from "quick-data-table";
 ```
 
 ## Loading
 
-```
+```tsx
 <DataTable
   columns={columns}
   data={[]}
@@ -116,7 +109,7 @@ import type { DataTableProps } from "quick-data-table";
 />
 ```
 
-```
+```tsx
 <DataTable
   columns={columns}
   data={[]}
