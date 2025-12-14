@@ -150,3 +150,7 @@ import type { DataTableProps } from "quick-data-table";
 - `trClassName`: row `<tr>` class
 - `thClassName`: header cell `<th>` class
 - `tdClassName`: body cell `<td>` class
+
+## License
+
+Open source under the MIT License. See `LICENSE` for details.
