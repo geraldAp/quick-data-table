@@ -3,7 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "./dist/types",
+    "declarationDir": "./dist/types",
     "rootDir": "./src",
     "skipLibCheck": true,
     "jsx": "react-jsx",
